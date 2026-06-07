@@ -1,6 +1,6 @@
 # FinSight RAG
 
-A RAG-powered financial document analyst that lets you upload any financial PDF and ask natural language questions about it — powered by local LLMs via Ollama.
+A RAG-powered financial document analyst that lets you upload any financial PDF and ask natural language questions about it gets powered by local LLMs via Ollama.
 
 ## What it does
 
@@ -22,12 +22,12 @@ Upload a bank statement, annual report, or any financial PDF and ask questions l
 
 ## Tech Stack
 
-- **Backend** — FastAPI
-- **Vector DB** — FAISS
-- **Embeddings** — SentenceTransformers (all-MiniLM-L6-v2)
-- **LLM** — Ollama (llama3)
-- **Frontend** — Streamlit
-- **PDF Parsing** — PyMuPDF
+- **Backend** : FastAPI
+- **Vector DB** : FAISS
+- **Embeddings** : SentenceTransformers (all-MiniLM-L6-v2)
+- **LLM** : Ollama (llama3)
+- **Frontend** : Streamlit
+- **PDF Parsing** : PyMuPDF
 
 ## How to Run
 
