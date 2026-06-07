@@ -16,7 +16,7 @@ Upload a bank statement, annual report, or any financial PDF and ask questions l
 2. Text is split into chunks of 500 characters
 3. Each chunk is converted to embeddings using SentenceTransformers
 4. Embeddings are stored in a FAISS vector index
-5. User asks a question — it gets embedded and compared against all chunks
+5. User asks a question it gets embedded and compared against all chunks
 6. Top 3 most relevant chunks are retrieved from FAISS
 7. Chunks + question are sent to Ollama (llama3) to generate a grounded answer
 
